@@ -53,7 +53,7 @@ importers:
         version: 9.0.8
       '@valibot/i18n':
         specifier: 1.0.0
-        version: 1.0.0(valibot@1.1.0(typescript@5.8.3))
+        version: 1.0.0(valibot@1.2.0(typescript@5.8.3))
       decimal.js:
         specifier: ^10.5.0
         version: 10.5.0
@@ -165,7 +165,7 @@ importers:
         version: 2.0.2
       valibot:
         specifier: ^1.1.0
-        version: 1.1.0(typescript@5.8.3)
+        version: 1.2.0(typescript@5.8.3)
       yup:
         specifier: ^1.6.1
         version: 1.6.1
@@ -1678,8 +1678,8 @@ packages:
       typescript:
         optional: true
 
-  valibot@1.1.0:
-    resolution: {integrity: sha512-Nk8lX30Qhu+9txPYTwM0cFlWLdPFsFr6LblzqIySfbZph9+BFsAHsNvHOymEviUepeIW6KFHzpX8TKhbptBXXw==}
+  valibot@1.2.0:
+    resolution: {integrity: sha512-mm1rxUsmOxzrwnX5arGS+U4T25RdvpPjPN4yR0u9pUBov9+zGVtO84tif1eY4r6zWxVxu3KzIyknJy3rxfRZZg==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -2363,9 +2363,9 @@ snapshots:
       '@typescript-eslint/types': 8.34.0
       eslint-visitor-keys: 4.2.1
 
-  '@valibot/i18n@1.0.0(valibot@1.1.0(typescript@5.8.3))':
+  '@valibot/i18n@1.0.0(valibot@1.2.0(typescript@5.8.3))':
     dependencies:
-      valibot: 1.1.0(typescript@5.8.3)
+      valibot: 1.2.0(typescript@5.8.3)
 
   '@vinejs/compiler@3.0.0':
     optional: true
@@ -3235,7 +3235,7 @@ snapshots:
       typescript: 5.8.3
     optional: true
 
-  valibot@1.1.0(typescript@5.8.3):
+  valibot@1.2.0(typescript@5.8.3):
     optionalDependencies:
       typescript: 5.8.3
 
